@@ -24,7 +24,6 @@ from saicinpainting.evaluation.refinement import refine_predict
 from utils import load_img_to_array, save_array_to_img
 
 
-@torch.no_grad()
 def inpaint_img_with_lama(
         img: np.ndarray,
         mask: np.ndarray,
